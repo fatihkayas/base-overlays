@@ -1,8 +1,7 @@
----
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
-  name: monitoring
+  name: monitoring-git-repo  # Change the name to something unique
   namespace: flux-system
 spec:
   interval: 30s
