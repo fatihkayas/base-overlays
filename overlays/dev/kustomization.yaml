@@ -6,7 +6,7 @@ resources:
 
 replicas:
   - name: myapp
-    count: 1
+    count: 2
 images:
   - name: nginx
     newTag: 1.25.3-alpine3.18
