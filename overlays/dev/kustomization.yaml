@@ -7,3 +7,6 @@ resources:
 replicas:
   - name: myapp
     count: 1
+images:
+  - name: nginx
+    newTag: 1.24.0-alpine
