@@ -9,5 +9,5 @@ replicas:
     count: 4
 
 commonLabels:
-  environment: stage
+  owner: stage
     
