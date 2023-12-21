@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: myapp
 resources:
   - ../../base/
+  - hpa.yaml  
 
 replicas:
   - name: myapp
