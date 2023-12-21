@@ -5,7 +5,7 @@ resources:
   - ../../base/
 
 replicas:
-  - name: myapp
+  - name: myapp-dev
     count: 2
 images:
   - name: nginx
