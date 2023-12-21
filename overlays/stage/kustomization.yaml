@@ -8,8 +8,6 @@ replicas:
   - name: myapp
     count: 4
 
-metadata:
-  name: myapp
-  labels:
-    environment: stage    
+commonLabels:
+  environment: stage
     
