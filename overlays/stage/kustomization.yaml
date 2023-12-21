@@ -8,6 +8,4 @@ replicas:
   - name: myapp
     count: 4
 
-commonLabels:
-  owner: stage
-    
+
