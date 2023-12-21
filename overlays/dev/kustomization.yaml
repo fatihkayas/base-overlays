@@ -4,5 +4,5 @@ resources:
   - ../../base/
 
 replicas:
-  - name: myapp2
+  - name: myapp
     count: 1
