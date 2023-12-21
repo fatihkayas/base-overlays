@@ -7,4 +7,9 @@ resources:
 replicas:
   - name: myapp
     count: 3
+
+metadata:
+  name: myapp
+  labels:
+    environment: stage    
     
