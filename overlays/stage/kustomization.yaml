@@ -10,7 +10,7 @@ replicas:
     count: 4
 images:
   - name: nginx
-    newTag: 1.25.3-alpine3.18
+    newTag: 1.24.0-alpine3.17
 
 
 namePrefix: stage-
